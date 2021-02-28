@@ -3,14 +3,14 @@
 </h1>
 
 <div>
-  <img src="../moveit-next/public/moveit.PNG" alt="Screenshot of the application" />
+  <img src="./public/moveit.PNG" alt="Screenshot of the application" />
 </div>
 
   💡 Move.it is a web application focused on helping those who spend a lot of time in front of the computer. Based on the Pomodoro method, Move.it creates 25 minutes time cycles in which the user has to be focused on their task. In the interval of these cycles, the user receives a challenge that consists of a random exercise, which can be for the body or the eyes.
 
    When the challenge is completed, the user receive one amount of "Experience" that can vary depending on the challenge. If the user's level "xp" goal is reached, the user will level up and acquire an additional challenge for counting complete challenges
 
-<img src="../moveit-next/public/NewLevel.PNG" alt="Modal displayed when leveling up"/>
+<img src="./public/NewLevel.PNG" alt="Modal displayed when leveling up"/>
 
   # Techs
   🚀 The project is building with:
