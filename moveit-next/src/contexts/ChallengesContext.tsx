@@ -84,8 +84,9 @@ export function ChallengeProvider({
   }
 
   function completedChallenge() {
-    if (!activeChallenge)
+    if (!activeChallenge) {
       return
+    }
 
     const { amount } = activeChallenge
 
@@ -118,7 +119,7 @@ export function ChallengeProvider({
     >
       {children}
 
-      { isLevelUpModalOpen && <LevelUpModal /> }
+      { isLevelUpModalOpen && <LevelUpModal />}
     </ChallengesContext.Provider>
   )
 }
